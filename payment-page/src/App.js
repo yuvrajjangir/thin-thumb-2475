@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import AddressPage from './Component/AddressPage';
+// import AddressPage from './Component/AddressPage';
+import Demo from './Component/CartComponent/Demo';
 // import Comp from './Component/Comp';
 // import RazorpayPayment from './Component/RazorpayPayment';
 function App() {
   return (
     <div className="App">
-        <AddressPage/>
+        <Demo/>
 
       {/* <AddressPage/> */}
     </div>
