@@ -1,0 +1,8 @@
+.firstPortion{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px 10px 70px 10px;
+    padding-top: 10px;
+}
+
