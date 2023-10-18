@@ -1,0 +1,30 @@
+
+.secondPortion{
+    display: flex;
+    justify-content: space-around;
+}
+.fstleftSecond{
+    display: flex;
+}
+.trdleftsecond{
+    display: flex;
+}
+.sndleftsecond{
+    display: flex;
+}
+.rightSecond{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+.rightSecond >div{
+    border: 1px solid black;
+
+}
+
+.parent{
+    background-color: #3BDC93;
+    width: 100%;
+    height: 640PX;
+}
