@@ -5,7 +5,7 @@
     import React from 'react'
     import './Navbar.css';
     import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-    import { faCarSide, faCircleRadiation, faCoffee, faCoins, faCreditCard, faEllipsisVertical, faHouseChimney, faScrewdriver, faTabletScreenButton, faWallet } from '@fortawesome/free-solid-svg-icons'
+    import { faCarSide, faCircleRadiation,  faCoins, faCreditCard, faEllipsisVertical, faHouseChimney,   faWallet } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -18,11 +18,11 @@
         <div className='2no'  style={{backgroundColor:"none", border:"1px solid black" , borderRadius:"15px", padding:"5px"}}>
         <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" width={"45px"} style={{marginBottom:"-7px" , borderRadius:"15px"}} />
 
-       <input type="value" style={{borderRadius:"15px", height:"25px",border:"none", width:"150px"}} ></input>
-        <select name="" id="" style={{borderRadius:"15px" , height:"22px", border:"none"}}>
-            <option value="Kuntal Kumar"></option>
-
-        </select>
+       {/* <input type="value" style={{borderRadius:"15px", height:"25px",border:"none", width:"150px"}} ></input> */}
+       <button  style={{borderRadius:"10px",padding:"2px",border:"none",width:"150px"}}>name    
+        <button name="" id="" style={{borderRadius:"10px" , backgroundColor:"black",color:"white", marginLeft:"+70px",padding:"2px"}}>
+        Login</button></button>
+       
 
            
         </div>
