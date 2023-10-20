@@ -6,3 +6,24 @@
     padding-top: 10px;
 }
 
+.categoryBtn{
+    background-color:#74edb6;
+    /* color:#8ec1aa ; */
+     padding:8px;
+     border-radius:20px;
+     width:100px
+     
+}
+.categoryBtn:hover{
+    background-color: rgb(16, 53, 16);
+color: white;
+}
+.fourno{
+    display: flex;
+    gap: 8px;
+}
+
+.thirdNo{
+    display: flex;
+    gap: 10px   ;
+}

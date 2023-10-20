@@ -4,13 +4,15 @@
 
     import React from 'react'
     import './Navbar.css';
+    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+    import { faCarSide, faCircleRadiation, faCoffee, faCoins, faCreditCard, faEllipsisVertical, faHouseChimney, faScrewdriver, faTabletScreenButton, faWallet } from '@fortawesome/free-solid-svg-icons'
 
 
 
     const Navbar = () => {
       return (
+
         <div className='firstPortion'>
-     
         <div className='1no' style={{backgroundColor:"black", color:"#3BDC93" , padding:"10px" , borderRadius:"25px"}}>CK</div>
         
         <div className='2no'  style={{backgroundColor:"none", border:"1px solid black" , borderRadius:"15px", padding:"5px"}}>
@@ -25,15 +27,24 @@
            
         </div>
 
-        <div className='3no'>
-            <button style={{backgroundColor:"#3BDC93", padding:"8px",borderRadius:"15px"}}>Karma</button>
-            <button style={{backgroundColor:"#3BDC93", padding:"8px",borderRadius:"15px"}}>Credit</button>
-            <button style={{backgroundColor:"#3BDC93", padding:"8px",borderRadius:"15px"}}>Money</button>
+        <div className='thirdNo'>
+            <button className='categoryBtn'>Karma</button>
+            <button className='categoryBtn' >Credit</button>
+            <button className='categoryBtn'>Money</button>
         </div>
 
-        <div className='4no'>
-            <button style={{backgroundColor:"white  ", padding:"8px",borderRadius:"15px"}}>kk</button>
+        <div className='fourno'>
+
+        <FontAwesomeIcon icon={faCircleRadiation} size="lg" />
+        <FontAwesomeIcon icon={faWallet} size="lg" /> 
+        <FontAwesomeIcon icon={faCreditCard} size="lg" />
+        <FontAwesomeIcon icon={faCoins} size="lg" />
+        <FontAwesomeIcon icon={faCarSide} size="lg" />
+        <FontAwesomeIcon icon={faHouseChimney} size="lg" />
+        <FontAwesomeIcon icon={faEllipsisVertical} size="lg" />
+                    {/* <button style={{backgroundColor:"white  ", padding:"8px",borderRadius:"15px"}}>kk</button> */}
         </div>
+        
 
     </div>
 
