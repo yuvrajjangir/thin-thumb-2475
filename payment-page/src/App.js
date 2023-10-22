@@ -1,15 +1,13 @@
-// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-// import AddressPage from './Component/AddressPage';
-import Demo from './Component/CartComponent/Demo';
-// import Comp from './Component/Comp';
-// import RazorpayPayment from './Component/RazorpayPayment';
+import Dashboard from './Component/Dashboard/Dashboard';
+import graph from "./Component/Assets/graph.jpeg";
+
 function App() {
   return (
     <div className="App">
-        <Demo/>
-
-      {/* <AddressPage/> */}
+      {/* Include your imported components here, for example: */}
+      <Dashboard />
     </div>
   );
 }

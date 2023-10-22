@@ -1,30 +1,196 @@
 
 .secondPortion{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .fstleftSecond{
     display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    
 }
+
+
+.equifax{
+    background-color: #3BDC93;
+    padding:10px;
+     border-radius:20px;
+     width:120px;
+     margin-top: 55px;
+
+
+}
+.healthKarma{
+    font-size: 40px;
+    font-weight: bold;
+    width: 150px;
+}
+.logoBg{
+    background-color: #3BDC93;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.logoBgOnly{
+    background-color:white;
+    border: 1px solid black;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
 .trdleftsecond{
     display: flex;
 }
 .sndleftsecond{
     display: flex;
+    /* margin-top: 60px; */
+    align-items: center;
+    justify-content: space-around;
 }
 .rightSecond{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-right: 150px;
 
 }
 .rightSecond >div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+    border-radius: 30px;
 
 }
+.boxStyle{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    /* padding-top: -15px; */
+    /* align-items: left; */
+}
+.smallBoxStyle{
+    background-color: white;
+    width: 220px;
+    height: 105px;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 25px;
+    margin-top: 0px;
+
+}
+
+
 
 .parent{
     background-color: #3BDC93;
-    width: 100%;
-    height: 640PX;
+    /* width: 100%; */
+    height: 872PX;
+    /* padding: 20px; */
 }
+/* style={{border:"1px solid black", height:"300px"}} */
+
+.lastPortion{
+    /* border: 1px solid black; */
+    background-color: black;
+border-radius: 30px 30px 0px 0px;
+    margin-top: 30px;
+    height: 280px;
+}
+.lowbtnStyle{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+
+    padding:10px;
+    border-radius:20px;
+    width:80px;
+    margin: 5px;
+}
+
+.lastPortion{
+    color: white;
+
+
+}
+
+.firstLastPortion {
+display: flex;
+justify-content: space-around;
+gap: 70px;
+align-items: center;
+}
+
+.scndLastNvr{
+    display: flex;
+justify-content: space-around;
+gap: 390px;
+
+align-items: center;
+
+}
+
+.LastNavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.roundCircle{
+    border: 1px solid silver;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.lastLastPortion{
+
+}
+
+.lastBody{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.lastImageDiv {
+    display: flex;
+    gap: 4px;
+
+}
+
+.lastDiv1 {
+border-radius: 20px 20px 0px 0px;
+width: 250px;
+height: 170px;
+background-color: white;
+background-color: #FE5858;
+color: black;
+
+}
+
+.lastDiv2 {
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 170px;
+    background-color: white;
+    background-color: #299cff;
+    color: black;
+
+    }
+.lastDiv3 {
+        border-radius: 20px 20px 0px 0px;
+        width: 250px;
+        height: 170px;
+        background-color: white;
+        background-color: #92e50a;
+        color: black;
+        }
+
