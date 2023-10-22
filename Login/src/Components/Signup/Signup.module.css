@@ -1,0 +1,189 @@
+.container{
+    background-color: #3bdc93;
+    background-size: cover;
+    background-position-x: 4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   }
+   
+   .logo2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: black; /* Creates a circular shape */
+        border: 2px solid #000;
+        color: #3bdc93; /* 2px black border */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 16px;
+        margin-top: 1%;
+        font-size: 30px;
+        font-weight: 100;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+      }
+   
+   .inner {
+       background-color: whitesmoke;
+       padding: 60px;
+       padding-top: 20px;
+       padding-bottom: 50px;
+       border-radius: 20px;
+       box-shadow: 0 0 10px rgba(0.5, 0.5, 0.5, 0.5);
+       text-align: center;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       width: 25%;
+       height: 63%;
+     }
+   
+     .input{
+       width: 340px;
+       height: 30px; 
+       border: 2px solid;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font-size: 15px;
+       border-radius: 6px;
+       padding-left: 8px;
+       padding-right: 8px;
+       margin-top: 8px;
+       text-align: center;
+   
+     }
+     .input:focus{
+      border: 1px solid;
+      outline: none;
+     }
+   
+     .btn:hover {
+      transition-duration: 300ms;
+      background: black;
+      color: whitesmoke;
+    }
+    .btn:disabled{
+      background-color: gray ;
+    }
+   .btn {
+      background: whitesmoke;
+      border-radius: 20px;
+      color: black;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      width: 320px;
+      padding: 10px 20px;
+      font-size: 25px;
+      border: 3px solid;
+      transition-duration: 300ms;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+   
+   
+   
+    .line{
+      cursor: default;
+      color: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 10px;
+      
+     }
+     .dont{
+       cursor: default;
+       color: red;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .appLogo{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+     }
+     .images{
+       width: 30px;
+       height: 30px;
+       margin-left: 45px;
+     }
+     .pop{ 
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        cursor: default;
+     }
+     .link{
+        color: #3bdc93;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 24px;
+        cursor: pointer;
+     }
+     .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: black; /* Creates a circular shape */
+      border: 2px solid #000;
+      color: #3bdc93; /* 2px black border */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 9rem;
+      margin-top: -3%;
+      font-size: 50px;
+      margin-bottom: 0px;
+      font-weight: 300;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      cursor: default;
+      }
+
+     @media (max-width: 768px) {
+        /* Styles for screens with 
+        a maximum width of 768px */
+        .container{
+            background-position-x: 75rem;
+            width: 100%;
+            height: 100%;
+
+        }
+        .input{
+            width: 100%;
+            font-size: 17px;
+            text-align: center;
+        }
+        .btn {
+            width: 100%;
+            font-size: 25px;
+        }
+        .logo2{
+          margin-left: 0.5rem;
+          margin-top: 0.6rem;
+        }
+        .logo{
+          margin-left: 5.2rem;
+          font-size: 45px;
+          width: 70px;
+          height: 70px;
+          margin-top: -5px;    
+        }
+          
+          .link{
+            font-size: 19px;
+          }
+          .inner{
+            width: 55%;
+            height: 55%;
+          }
+          p{
+            font-size: 15px;
+          }
+      }
+      
+      @media (min-width: 1025px) {
+        /* Styles for screens with a minimum width of 1025px */
+      }
+  
