@@ -92,7 +92,7 @@
 .parent{
     background-color: #3BDC93;
     /* width: 100%; */
-    height: 872PX;
+    /* height: 872PX; */
     /* padding: 20px; */
 }
 /* style={{border:"1px solid black", height:"300px"}} */
@@ -150,9 +150,6 @@ align-items: center;
     border-radius: 20px;
 }
 
-.lastLastPortion{
-
-}
 
 .lastBody{
     display: flex;
