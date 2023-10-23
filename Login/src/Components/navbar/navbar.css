@@ -1,0 +1,30 @@
+.firstPortion{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3bdc93;
+    padding-top: 15px;
+}
+
+.categoryBtn{
+    background-color:#7bf5be;
+    border: 2px;
+    /* color:#8ec1aa ; */
+     padding:8px;
+     border-radius:20px;
+     width:100px
+     
+}
+.categoryBtn:hover{
+    background-color: rgb(16, 53, 16);
+color: white;
+}
+.fourno{
+    display: flex;
+    gap: 28px;
+    margin-right: 25px;
+}
+
+.thirdNo{
+    display: flex;
+    gap: 10px   ;
+}
